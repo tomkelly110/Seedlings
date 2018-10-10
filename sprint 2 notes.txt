@@ -1,0 +1,8 @@
+keres
+	feature extraction
+	dense neural network
+
+benchmarking with google automl
+	pre trained model that is tuned by
+
+py image search
