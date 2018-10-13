@@ -1,0 +1,10 @@
+trello/github
+mission statement
+minimumal viable product
+user stories
+	who is customer
+semester plan
+task assignment
+lit review
+	other research/products
+system block diagram

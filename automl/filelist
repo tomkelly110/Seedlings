@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+import os								#Imports libraries
+import sys
+filelist = os.listdir()					#Retreive and sort directory
+filelist.sort(key=os.path.getmtime)
+length = len(filelist)
+for x in filelist:				#print requested number of files
+	print("gs://seedlings-benchmark-auto-vcm/seedlings1/cranesbill/"+x)
+#Copyright 2018 Thomas Kelly tdkelly@bu.edu
