@@ -17,4 +17,5 @@ As we can see, the 11_label_model's lose is much lower than the 12_label_model's
 Next step, we're gonna to build a vgg19 model to classify the Black_grass and Loose Silky_Bent. 
 
 ############################# This is Update line #########################
+
 Actually, we r confused by the result that working with a 7-layer-model we can get such a good result, and then we checked again, fingding that we used images in training set to test, and after we retrained and use some totally new images to test, the accuracy decrease to about 68%, which cannot meet our request. And we used Vgg19 to train and test, the result is good, bigger than 90%. We'll update the model in a few days.
