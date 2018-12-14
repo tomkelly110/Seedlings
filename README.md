@@ -29,5 +29,6 @@ There a two models in our final push. One is based on vgg19, and another one is 
 
 The matrixs below represent our accuracy. First one is without normalization, and the second one is after normalizing process.
 
-![training](.png)
-![training](training.png)
+![image](https://github.com/tomkelly110/Seedlings/blob/master/result/matrix1.png)
+![image](https://github.com/tomkelly110/Seedlings/blob/master/result/matrix2.png)
+
