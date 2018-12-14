@@ -20,3 +20,14 @@ Next step, we're gonna to build a vgg19 model to classify the Black_grass and Lo
 ############################# This is Update line #########################
 
 Actually, we r confused by the result that working with a 7-layer-model we can get such a good result, and then we checked again, fingding that we used images in training set to test, and after we retrained and use some totally new images to test, the accuracy decrease to about 68%, which cannot meet our request. And we used Vgg19 to train and test, the result is good, bigger than 90%. We'll update the model in a few days.
+
+######################### This is Update Line 12.13.2018 #####################
+
+So, finally to use and test our project, u need to download these files: main.py, training.py,input_data.py, model.py, vgg1999.py, and our model file. Because we built the website on our localhost server, perhaps it's hard to fix the enviornment on ur computer, and some file address also needed to change to ur own pc address.
+
+There a two models in our final push. One is based on vgg19, and another one is built by ourselves with seven layers. And we mainly focused on the vgg19 model, which is much more accurate and useful when we test images online. Separate the given images for training and validation with an 80%/20% split, we can achieve an accuracy of 88.33% on the validation set. Using all labeled data for training and making use of little data augmentation, we can obtain an accuracy of 83.06% on the test set. 
+
+The matrixs below represent our accuracy. First one is without normalization, and the second one is after normalizing process.
+
+![training](.png)
+![training](training.png)
